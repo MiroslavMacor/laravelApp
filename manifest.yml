@@ -9,6 +9,6 @@ applications:
   disk_quota: 1024M
   timeout: 60
   env:
-    APP_ENV: production
-    APP_DEBUG: false
+    APP_ENV: local
+    APP_DEBUG: true
     APP_KEY: l7NcbDb0mMNpvAHQHQy7rUmemQsOZbO8

@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+/*Route::get('/', function () {
+    return view('frontend/trips');
+});*/
+Route::get('/', 'Frontend\\TripsController@index')->name('index');
+Route::resource('frontend/trips', 'Frontend\\TripsController');
